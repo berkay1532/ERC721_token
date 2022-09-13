@@ -1,0 +1,24 @@
+{
+  "description": "This NFT proves I've deployed ERC721 smart contract on goerli", 
+  "external_url": "https://www.alchemy.com/", 
+  "image": "https://ipfs.filebase.io/ipfs/QmNj2JRcVkyxggqZQJeynRninv6BpeDv57p69NZgyoBXEf", 
+  "name": "ERC271 Ytu",
+  "attributes": [ 
+    {
+        "trait_type": "Coolnes",
+        "value": "A lot"
+    },
+    {
+        "trait_type": "University",
+        "value": "Yıldız Technical University"
+    },
+    {
+        "trait_type": "Token Standart",
+        "value": "ERC271"
+    },
+    {
+        "trait_type": "Reality Of NFT",
+        "value": "Test"
+    }
+   ] 
+}

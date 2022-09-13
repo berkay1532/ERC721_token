@@ -12,7 +12,7 @@ contract YtuToken is ERC721, ERC721Enumerable, ERC721URIStorage{
     Counters.Counter private _tokenIdCounter;
     uint256 constant MAX_SUPPLY = 10000;
 
-    constructor() ERC721("MyToken", "MTK") {}
+    constructor() ERC721("YtuToken", "Ytu") {}
 
     function safeMint(address to, string memory uri) public{
         uint256 tokenId = _tokenIdCounter.current();

@@ -30,13 +30,18 @@ async function main(){
     console.log(await ytuToken.balanceOf(minter1.address));
 
     //Mint the NFT
-    const tip = {value: hre.ethers.utils.parseEther("1")};
     await ytuToken.safeMint(minter1.address,uri);
 
     
-    // //Check balance after the mint
+    //Check balance after the mint
     console.log("==after mint==");
     console.log(await ytuToken.balanceOf(minter1.address));
+
+    //Check name of the collection and symbol
+    const name = await ytuToken.name();
+    const symbol = await ytuToken.symbol();
+    console.log(`Name is ${name} and symbol is ${symbol}`);
+
 
     //Check token uri
     console.log("Token uri: ",uri);

@@ -34,7 +34,7 @@ async function main(){
     await ytuToken.safeMint(minter1.address,uri);
 
     
-    // //Check balances after the coffe purchase
+    // //Check balance after the mint
     console.log("==after mint==");
     console.log(await ytuToken.balanceOf(minter1.address));
 
